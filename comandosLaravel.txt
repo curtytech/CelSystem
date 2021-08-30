@@ -2,6 +2,17 @@ Criar App Laravel
 composer create-project --prefer-dist laravel/laravel NomeDoApp
 //Na raiz do projeto htdocs
 
+--Comandos Migration
+Criar Migration
+php artisan make:migration nomeDaMigration
+// Exemplos para nomes addcategory editservicos OBS Sempre Minusculo
+Migrar Banco de dados
+php artisan migrate
+
+Migrar e Resetar Banco
+php artisan migrate:fresh
+
+
 Criar Controller
 
 php artisan make:controller NomeDoController
