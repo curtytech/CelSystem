@@ -1,0 +1,12 @@
+Criar App Laravel
+composer create-project --prefer-dist laravel/laravel NomeDoApp
+//Na raiz do projeto htdocs
+
+Criar Controller
+
+php artisan make:controller NomeDoController
+//Sempre Camel Case Inicio Maiusculo
+
+Criar Model
+php artisan make:model NomeDoModel
+//Sempre Camel Case Inicio Maiusculo
