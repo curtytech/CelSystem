@@ -1,5 +1,9 @@
 Criar App Laravel
 composer create-project --prefer-dist laravel/laravel NomeDoApp
+
+Corrigir erro no Controller -- Target Class does not exist
+Descomentar Arquivo app/Providers/RouteServiceProvider.php   
+-> Essa linha deve ser descomentada -> protected $namespace = 'App\\Http\\Controllers';
 //Na raiz do projeto htdocs
 
 --Comandos Migration
