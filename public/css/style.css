@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+
+.font{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bg-titulo{
+    background-color: rgb(99, 99, 99);
+}
+
