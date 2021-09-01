@@ -1,0 +1,27 @@
+Criar App Laravel
+composer create-project --prefer-dist laravel/laravel NomeDoApp
+
+Corrigir erro no Controller -- Target Class does not exist
+Descomentar Arquivo app/Providers/RouteServiceProvider.php   
+-> Essa linha deve ser descomentada -> protected $namespace = 'App\\Http\\Controllers';
+//Na raiz do projeto htdocs
+
+--Comandos Migration
+Criar Migration
+php artisan make:migration nomeDaMigration
+// Exemplos para nomes addcategory editservicos OBS Sempre Minusculo
+Migrar Banco de dados
+php artisan migrate
+
+Migrar e Resetar Banco
+php artisan migrate:fresh
+
+
+Criar Controller
+
+php artisan make:controller NomeDoController
+//Sempre Camel Case Inicio Maiusculo
+
+Criar Model
+php artisan make:model NomeDoModel
+//Sempre Camel Case Inicio Maiusculo
