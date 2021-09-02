@@ -33,9 +33,9 @@ $(".container").mousemove(function () {
         var valor = Number($(this).val());
         if (!isNaN(valor)) total += valor;
     });
-    $('#frete').each(function () {
+    $('#desconto').each(function () {
         var valor = Number($(this).val());
-        if (!isNaN(valor)) total += valor;
+        if (!isNaN(valor)) total -= valor;
     });
     total = total;
     $("#valTotalServicoEMaterial").val(total.toFixed(2));

@@ -39,9 +39,9 @@ class Servicos extends Model
         'valMaterial',
         'valTotalMaterial',
         'valTotalMateriais',
-        'sinal',
-        'restante',
-        'frete',
+        'pago',
+        'devendo',
+        'desconto',
         'valTotalServicoEMaterial'
         
     ];

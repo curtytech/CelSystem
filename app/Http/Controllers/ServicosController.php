@@ -19,6 +19,9 @@ class ServicosController extends Controller
 
         $servico->nomeCliente = $request->nomeCliente;
         $servico->telefoneCliente = $request->telefoneCliente;
+        $servico->categoria = $request->categoria;
+        $servico->marca = $request->marca;
+        $servico->modelo = $request->modelo;
         $servico->dataPedido = $request->dataPedido;
         $servico->dataEntrega = $request->dataEntrega;
         $servico->servico = $request->servico;
@@ -32,9 +35,9 @@ class ServicosController extends Controller
         $servico->valMaterial = $request->valMaterial;
         $servico->valTotalMaterial = $request->valTotalMaterial;
         $servico->valTotalMateriais = $request->valTotalMateriais;
-        $servico->sinal = $request->sinal;
-        $servico->restante = $request->restante;
-        $servico->frete = $request->frete;
+        $servico->pago = $request->pago;
+        $servico->devendo = $request->devendo;
+        $servico->desconto = $request->desconto;
         $servico->valTotalServicoEMaterial = $request->valTotalServicoEMaterial;
 
         // $user = auth()->user();

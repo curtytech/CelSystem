@@ -35,9 +35,9 @@ class addServicos extends Migration
             $table->json('valMaterial')->nullable();
             $table->json('valTotalMaterial')->nullable();
             $table->decimal('valTotalMateriais')->nullable();
-            $table->decimal('sinal')->nullable();
-            $table->decimal('restante')->nullable();
-            $table->decimal('frete')->nullable();
+            $table->string('pago')->nullable();
+            $table->decimal('devendo')->nullable();
+            $table->decimal('desconto')->nullable();
             $table->decimal('valTotalServicoEMaterial')->nullable();
             $table->timestamps();
         });

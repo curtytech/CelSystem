@@ -11,11 +11,11 @@
         @csrf
         <div class="row">
             <h5 class="font mb-3 mt-2"> Dados do Cliente </h5>
-            <div class="col-9">
+            <div class="col-8">
                 <label class="form-label">Nome do Cliente:</label>
                 <input type="text" class="form-control" id="nomeCliente" name="nomeCliente" value="" required>
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <label class="form-label ">Telefone:</label>
                 <input type="text" class="cel form-control" id="telefoneCliente" name="telefoneCliente" value="">
             </div>
@@ -45,15 +45,22 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-sm-6 ">
-                <label class="form-label">Data do Pedido</label>
+            <div class="col-sm-4 ">
+                <label class="form-label">Data do Pedido:</label>
                 <input type="date" class="form-control" id="dataPedido" name="dataPedido" value="">
             </div>
 
-            <div class="col-sm-6">
-                <label class="form-label">Data da Entrega</label>
+            <div class="col-sm-4">
+                <label class="form-label">Data da Entrega:</label>
                 <input type="date" class="form-control" id="dataEntrega" name="dataEntrega" value="">
             </div>
+
+            <div class="col-sm-4">
+                <label class="form-label">Observação:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">  </textarea>
+
+            </div>
+
         </div>
 
         <hr class="my-4">
@@ -139,10 +146,10 @@
                 <label class="form-label">Desconto:</label>
                 <div class="input-group col-3">
                     <span class="input-group-text" id="basic-addon1">R$:</span>
-                    <input type="text" class="form-control" name="devendo" readonly>
+                    <input type="text" class="form-control" id="desconto" name="desconto">
                 </div>
             </div>
-            
+
             <div class="col-md-3">
                 <label class="form-label">Total:</label>
                 <div class="input-group col-3">
