@@ -1,0 +1,50 @@
+upar
+
+git  init 
+
+//. para upar tudo
+git add .
+       
+//Fazer o comit e colocar o nome
+git commit -m ""
+git commit -m "v3"
+
+
+//add no repositorio curtytech
+git remote add origin https://github.com/curtytech/sisCel.git 
+
+//push para upar
+git push -u origin master
+
+
+//Branches
+// Saber qual branch esta
+git branch 
+
+// Add nova branch
+git branch nomedabranch
+git branch v3
+
+
+//Mudar de Branch
+git checkout branch
+git checkout v3
+
+
+
+
+
+-- Iniciar o Projeto
+
+Add e Configurar Arquivo .env
+Atualizar Dependencias -> composer update 
+Fazer Migrations -> php artisan migrate 
+Baixar e Jetstream -> composer require laravel/jetstream 
+Instalar Livewire e Jetstream -> php artisan jetstream:install livewire
+Instalar NPM e NPM Run Dev -> npm install 
+Instalar NPM Run Dev -> npm run dev
+Fazer Migrations -> php artisan migrate
+Desabilitar Register sem Logar -> Para desabilitar o registro, vá para config/fortify.php e comente o recurso Features :: registration ().
+// Features::registration(),
+
+
